@@ -1,0 +1,52 @@
+body, html {
+	width: 100%;
+	height: 100%
+}
+
+body {
+	background-image: url(raw.gif);
+	background-size: cover;
+	background-position: cover;
+	height: 100%;
+}
+
+.event {
+	text-align: center;
+	color: white;
+	margin: 2em;
+	font-family: 'Press Start 2P', cursive;
+	text-shadow: 4px 4px #191919
+}
+
+button.btn {
+	display: block;
+	margin: auto;
+	padding: auto;
+	margin-top: 12em;
+	border-radius: 90px;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+}
+
+.btn-danger {
+	margin-top: 90px;
+}
+
+hr.col {
+	border-top: 4px solid #ffacbb;
+	border-bottom: 4px solid #ffacbb;
+
+}
+
+p {
+	font-size: 30px;
+	color:  #ff3333;
+	text-decoration: line-through;
+}
+
+a {
+	font-size: 30px;
+	text-decoration: line-through;
+}
